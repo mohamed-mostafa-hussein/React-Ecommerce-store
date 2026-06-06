@@ -26,5 +26,5 @@ npm install
 npm run dev
 ```
 
-##
+## Live Demo
 https://react-ecommerce-store-rho.vercel.app
