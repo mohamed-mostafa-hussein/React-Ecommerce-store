@@ -5,7 +5,7 @@ import Home from "./pages/home/Home";
 import ProductDetails from "./pages/productDetails/ProductDetails";
 import Cart from "./pages/cart/Cart";
 import { Toaster } from "react-hot-toast";
-import ScrollToTop from "./components/scrollToTop";
+import ScrollToTop from "./components/ScrollToTop";
 import { AnimatePresence } from "framer-motion";
 import CategoryPage from "./pages/categoryPage/CategoryPage";
 import SearchResults from "./pages/SearchResults";
