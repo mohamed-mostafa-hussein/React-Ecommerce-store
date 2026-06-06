@@ -27,4 +27,4 @@ npm run dev
 ```
 
 ##
-react-ecommerce-store-rho.vercel.app
+https://react-ecommerce-store-rho.vercel.app
