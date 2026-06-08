@@ -5,12 +5,14 @@ import { PiSignInBold } from "react-icons/pi";
 import { FaUserPlus } from "react-icons/fa6";
 import { useState, useEffect, useRef } from "react";
 import { Link, useLocation } from "react-router-dom";
+import Footer from "../footer/Footer";
+import Home from "../../pages/home/Home";
 const NavLinks = [
   { title: "Home", link: "/" },
-  { title: "About", link: "/about" },
-  { title: "Accessories", link: "/accessories" },
-  { title: "Blog", link: "/blog" },
-  { title: "Contact", link: "/contact" },
+  { title: "About", link: {Home} },
+  { title: "Accessories", link: {Home} },
+  { title: "Blog", link: {Home} },
+  { title: "Contact", link:{Footer} },
 ];
 
 function BtmHeader() {
